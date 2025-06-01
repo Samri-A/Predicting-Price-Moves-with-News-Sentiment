@@ -1,0 +1,5 @@
+pandas
+TaLib
+seaborn
+textblob
+matplotlib
