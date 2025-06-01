@@ -113,7 +113,8 @@ pip install -r requirements.txt
 
 ## 📌 Future Work
 
-* Add sentiment scoring models (TextBlob, VADER, FinBERT).
+* Comparing price with sentiment scoring .
+* Comparsion of Techincal indicators for each trade
 * Train ML models for price movement prediction.
 * Deploy analysis in a web dashboard (e.g., Streamlit).
 
