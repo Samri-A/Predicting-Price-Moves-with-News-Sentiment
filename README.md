@@ -93,8 +93,28 @@ pip install -r requirements.txt
 * **RSI (Relative Strength Index)** – Detect overbought/oversold levels.
 * **MACD (Moving Average Convergence Divergence)** – Spot momentum shifts.
 
+---
 
+### ✅ Task 3: Correlation Between News and Stock Movement
 
+#### 📅 Date Alignment
+
+* Ensure both datasets (news and stock prices) are aligned by date.
+* Normalize timestamps to daily granularity.
+
+#### 💬 Sentiment Analysis
+
+* Apply sentiment scoring to news headlines (positive, neutral, negative).
+* Tools: Use **NLTK** and **TextBlob** for sentiment polarity and subjectivity.
+
+#### 📈 Stock Movement Calculation
+
+* Compute daily stock returns using percentage change in closing prices.
+
+#### 🔗 Correlation Analysis
+
+* Use statistical methods (Pearson/Spearman correlation) to measure the relationship between daily sentiment scores and stock returns.
+* Visualize the correlation patterns using scatter plots and heatmaps.
 
 ---
 
@@ -105,7 +125,7 @@ pip install -r requirements.txt
 * **Matplotlib, Seaborn, Plotly**: Visualizations
 * **TA-Lib**: Technical indicators
 * **PyNance**: Financial metrics
-* **Scikit-learn, NLTK, spaCy**: NLP tools
+* **Scikit-learn, NLTK, spaCy, TextBlob**: NLP tools
 * **Git & GitHub**: Version control & collaboration
 * **GitHub Actions**: CI for unit testing
 
@@ -113,9 +133,8 @@ pip install -r requirements.txt
 
 ## 📌 Future Work
 
-* Comparing price with sentiment scoring .
-* Comparsion of Techincal indicators for each trade
-* Train ML models for price movement prediction.
-* Deploy analysis in a web dashboard (e.g., Streamlit).
-
+* Compare price fluctuations directly with sentiment scores.
+* Compare technical indicators between different stocks or events.
+* Train ML models to predict price movements from sentiment and indicators.
+* Deploy interactive visualizations via a web dashboard (e.g., Streamlit or Dash).
 
