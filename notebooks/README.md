@@ -1,0 +1,1 @@
+This Dir contains two Jupyter Notebooks that demonstrate the use of technical analysis indicators and data visualization for stock market trends. These notebooks utilize TA-Lib, pandas, matplotlib, and seaborn to compute and visualize various metrics across top tech stocks like AAPL, AMZN, GOOG, META, MSFT, and NVDA
